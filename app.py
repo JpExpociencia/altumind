@@ -11,12 +11,12 @@ def cargar_datos():
             datos.append(fila)
     return datos
 # 🆕 Nueva ruta principal que muestra la página "main.html"
-@app.route('/main')
+@app.route('/')
 def main():
     return render_template('main.html')
     
 # 🔍 Página de búsqueda (index.html)    
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/buscar', methods=['GET', 'POST'])
 def buscar_codigo():
     datos = cargar_datos()
     resultado = None
@@ -46,4 +46,5 @@ def mostrar_detalles(codigo):
 if __name__ == '__main__':
 
     app.run(debug=True)
+
 
