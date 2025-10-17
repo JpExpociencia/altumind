@@ -10,7 +10,11 @@ def cargar_datos():
             fila = linea.strip().split(',')
             datos.append(fila)
     return datos
-
+# 🆕 Nueva ruta principal que muestra la página "main.html"
+@app.route('/main')
+def main():
+    return render_template('main.html')
+    
 @app.route('/', methods=['GET', 'POST'])
 def buscar_codigo():
     datos = cargar_datos()
@@ -39,4 +43,5 @@ def mostrar_detalles(codigo):
     return render_template('detalles.html', encabezados=encabezados, resultado=resultado, codigo=codigo)
 
 if __name__ == '__main__':
+
     app.run(debug=True)
