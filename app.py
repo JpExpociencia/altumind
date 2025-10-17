@@ -15,6 +15,7 @@ def cargar_datos():
 def main():
     return render_template('main.html')
     
+# 🔍 Página de búsqueda (index.html)    
 @app.route('/', methods=['GET', 'POST'])
 def buscar_codigo():
     datos = cargar_datos()
@@ -45,3 +46,4 @@ def mostrar_detalles(codigo):
 if __name__ == '__main__':
 
     app.run(debug=True)
+
