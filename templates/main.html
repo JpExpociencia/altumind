@@ -32,16 +32,24 @@
 <body>
   <div class="container">
     <header>
-      <h1>Proyecto Expociencia 2025 </h1>
-      <img src="Logoaltumind.jpg" alt="Logo del proyecto" style="height:116px;">
-      <nav aria-label="Navegación principal">
-        <a href="https://www.facebook.com/share/1bhfbUC4jT/" target="_blank"> <img src="{{ url_for('static', filename='LogoFace.PNG') }}" alt="Logo del proyecto" 
-       style="height:40px;"></a>
+  <h1>Proyecto Expociencia 2025</h1>
+  <img src="{{ url_for('static', filename='Logoaltumind.jpg') }}" alt="Logo del proyecto" style="height:116px;">
 
-        <a href="https://www.tiktok.com/@altumind.proyectexpo?_t=ZS-90bwE9N09sA&_r=1"><img src="Logotiktok.png" alt="Logo del proyecto" style="height:40px;"> </a>
-        <a href="https://www.instagram.com/altumind.proyectexpo?utm_source=qr&igsh=MWtqZjA3eXptcWIwaA=="><img src="LogoInsta.png" alt="Logo del proyecto" style="height:40px;"> </a>
-      </nav>
-    </header>
+  <nav aria-label="Navegación principal" style="display:flex; gap:15px; justify-content:center; margin-top:15px;">
+    <a href="https://www.facebook.com/share/1bhfbUC4jT/" target="_blank">
+      <img src="{{ url_for('static', filename='LogoFace.PNG') }}" alt="Logo de Facebook" style="height:40px;">
+    </a>
+
+    <a href="https://www.tiktok.com/@altumind.proyectexpo?_t=ZS-90bwE9N09sA&_r=1" target="_blank">
+      <img src="{{ url_for('static', filename='Logotiktok.png') }}" alt="Logo de TikTok" style="height:40px;">
+    </a>
+
+    <a href="https://www.instagram.com/altumind.proyectexpo?utm_source=qr&igsh=MWtqZjA3eXptcWIwaA==" target="_blank">
+      <img src="{{ url_for('static', filename='LogoInsta.png') }}" alt="Logo de Instagram" style="height:40px;">
+    </a>
+  </nav>
+</header>
+
 
     <main>
       
@@ -84,4 +92,5 @@ inclusion y el bienestar social.</p>
 
 </body>
 </html>
+
 
