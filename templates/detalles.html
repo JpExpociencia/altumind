@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalles del código {{ codigo }}</title>
+    <style>
+        body { text-align: center; font-family: Arial; margin-top: 40px; }
+        table { margin: 0 auto; border-collapse: collapse; width: 60%; }
+        th, td { border: 1px solid #999; padding: 10px; }
+        th { background-color: #4CAF50; color: white; }
+        a { text-decoration: none; color: #4CAF50; }
+    </style>
+</head>
+<body>
+    <h2>Detalles del código {{ codigo }}</h2>
+
+    {% if resultado %}
+    <table>
+        <thead>
+            <tr>
+                {% for encabezado in encabezados %}
+                <th>{{ encabezado }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                {% for celda in resultado %}
+                <td>{{ celda }}</td>
+                {% endfor %}
+            </tr>
+        </tbody>
+    </table>
+    {% else %}
+        <p>No se encontró el código "{{ codigo }}"</p>
+    {% endif %}
+
+    <p><a href="{{ url_for('buscar_codigo') }}">🔙 Volver</a></p>
+</body>
+</html>

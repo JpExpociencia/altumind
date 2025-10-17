@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Buscar por código</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; padding: 20px; }
+    .field { margin-bottom: 10px; }
+    label { display: inline-block; margin-bottom: 4px; }
+    input[type="text"] { padding: 8px; font-size: 14px; width: 200px; }
+    button { padding: 8px 12px; font-size: 14px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Buscar</h1>
+
+ <form method="POST">
+        <input type="text" name="codigo" placeholder="Ej: A001" required>
+        <button type="submit">Buscar</button>
+    </form>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault(); 
+      const codigo = document.getElementById('codigo').value.trim();
+      if (!codigo) {
+        alert('Por favor ingresa un código.');
+        return;
+      }
+      alert('Buscando el código: ' + codigo);
+    }
+  </script>
+</body>
+</html>

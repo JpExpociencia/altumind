@@ -1,0 +1,21 @@
+Codigo,Nombres,Apellidos,Tel. Contacto, Contacto,Distrito/Ciudad, Enfermedad
+CodeM01,Maybelin,Vega Martinez,967456233,Marcela Periche Flores,Los olivos-Lima,Alzheimer
+CodeM02,Fernanda,Garay Solano,944137653,Diego Correa Blass,San Martin de Porres-Lima,Alzheimer
+CodeM03,Jheremi,Gallardo Diaz,941455266,Camila Saldarriaga Carbonel,Comas-Lima,Autismo
+CodeM04,Hendrid,Diaz Ruiz,928953693,Yamileth Medina Lozano,Ancon-Lima,Autismo
+CodeM05,Mayumi,Smith Zarate,977351007,Irene Sanchez Aguayo,Santa Rosa-Lima,Alzheimer
+CodeM06,Marcos,Rios Garcia,983679820,Richard Morales Flores,La Molina-Lima,Alzheimer
+CodeM07,David,Peña Cruz,922057260,Manuel Reyes Infante, Lurin-Lima,Alzheimer
+CodeM08,Ivan,Troncos Diaz,979813026,Thiago Mio Macalopu,San Bartolo-Lima,Autismo
+CodeM09,Omar,Calero Espinoza,911768229,Alexis Cordova Anto,Lince-Lima,Alzheimer
+CodeM10,Victor,Castillo Neyra,951337664,Jonathan Ojeda Vinces,Rimac-Lima,Autismo
+CodeM11,Fernando,Guevara Vasquez,955025778,Paula Cruz Garcia,Breña-Lima,Alzheimer
+CodeM12,Jose,Quiñones Perez,908782311,Pedro Delgado Salinas,Ventanilla-Lima,Alzheimer
+CodeM13,Adrian Daga Vilca,925872377,Fabricio Jara, Silupu,Punta Hermosa-Lima,Autismo
+CodeM14,Yaritza,Ramirez Morales,966792445,Romina Melgar Quevedo,Ate-Lima,Alzheimer
+CodeM15,Erick,Flores Sebedon,974824621,Dylan Paucar Mendoza,Puente Piedra-Lima,Alzheimer
+CodeM16,Lucia,Criollo Gutierrez,900253118,Lucero Tarrillo Lopez,El Agustino-Lima,Alzheimer
+CodeM17,Kassandra,Solis Jimenez,937764113,Andre Moran Criollo,Chorrillos-Lima,Alzheimer
+CodeM18,Miriam,Suclupe Herrera,977504826,Adrian Aguilar Velasquez,San Isidro-Lima,Alzheimer
+CodeM19,Maricarmen,Acaro Damian,944317283,Samuel Dalay Rodriguez,Villa Maria del Triunfo-Lima,Alzheimer
+CodeM20,Cesar,Guillen Querevalu,996730888,Andrea Castro Chavez,Pueblo Libre-Lima,Alzheimer
